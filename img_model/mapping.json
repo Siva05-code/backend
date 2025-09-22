@@ -1,0 +1,19 @@
+{
+  "QR_code": "placeholders/blank.png",
+  "bank_statement_cropped_account_number": "placeholders/blank.png",
+  "barcode_label_closeup": "placeholders/blank.png",
+  "cheque_MICR_code_closeup": "placeholders/blank.png",
+  "credit_card_number_closeup": "placeholders/blank.png",
+  "driver_license_closeup": "placeholders/blank.png",
+  "email_address_screenshot": "placeholders/blank.png",
+  "employee_id_badge_zoom": "placeholders/blank.png",
+  "face_closeup_photo": "placeholders/blank.png",
+  "fingerprint_scan_closeup_iris_retina": "placeholders/blank.png",
+  "handwriting_sample_zoom": "placeholders/blank2.png",
+  "home_address_on_package": "placeholders/blank.png",
+  "national_id_card_cropped": "placeholders/blank.png",
+  "passport_MRZ_closeup": "placeholders/blank.png",
+  "signature_closeup": "placeholders/blank2.png",
+  "voter_id_card_cropped": "placeholders/blank.png",
+  "default": "placeholders/blank.png"
+}
