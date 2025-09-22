@@ -21,7 +21,7 @@ app = FastAPI(
 # Allows the frontend (running on a different port) to communicate with this backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, restrict this to your frontend's domain
+    allow_origins=["*", "https://info-redaction-main.onrender.com"],  # In production, restrict this to your frontend's domain
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
