@@ -1,6 +1,7 @@
 import json
 import torch
-from torchvision import models, transforms
+from torchvision.models import efficientnet_b0, EfficientNet_B0_Weights
+from torchvision import transforms
 from PIL import Image
 import os
 import fitz
@@ -12,7 +13,7 @@ with open('img_model//class_names.json', 'r') as f:
 NUM_CLASSES = len(class_names)
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-model = models.efficientnet_b0(pretrained=False)
+model = efficientnet_b0(weights=None)
 model.classifier[1] = torch.nn.Linear(model.classifier[1].in_features, NUM_CLASSES)
 model.load_state_dict(torch.load('img_model//best_multi_label_model.pth', map_location=DEVICE))
 model = model.to(DEVICE)
