@@ -26,7 +26,6 @@ Faker
 fastapi
 filelock
 filetype
-fitz
 fonttools
 fsspec
 greenlet
@@ -142,3 +141,4 @@ urllib3
 uvicorn
 xlsxwriter
 zstandard
+
